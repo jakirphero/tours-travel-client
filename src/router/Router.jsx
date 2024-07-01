@@ -5,6 +5,7 @@ import Main from "../layout/Main";
 import Home from "../pages/Home/Home/Home";
 import Discover from "../pages/Discover/Discover";
 import Error from "../component/Error/Error";
+import Services from "../pages/Services/Services";
 
 const router = createBrowserRouter([
     {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
             {
                 path: "discover",
                 element: <Discover></Discover>
+            },
+            {
+                path: "services",
+                element: <Services></Services>
             },
         ]
     },
