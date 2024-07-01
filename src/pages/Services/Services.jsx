@@ -36,7 +36,7 @@ const Services = () => {
         <>
             <Cover img={img1} title={'services'}></Cover>
 
-            <div className="grid md:grid-cols-4 max-w-screen-xl mx-auto gap-4 my-5">
+            <div className="grid md:grid-cols-4 max-w-screen-xl justify-center mx-auto gap-4 my-5">
                 <div className="card bg-base-100 shadow-xl">
                     <div className="card-body">
                         <FaMoneyBill className="text-3xl font-bold"></FaMoneyBill>
@@ -86,7 +86,7 @@ const Services = () => {
                 <Link role="tab" className="tab btn btn-outline"><FaMap className="text-2xl font-bold"></FaMap>  Camps</Link>
             </div>
             <SectionTitle heading={'our services'} subHeading={'benefits'}></SectionTitle>
-            <div className="max-w-screen-xl mx-auto grid md:grid-cols-3 gap-4 justify-center my-4">
+            <div className="max-w-screen-xl mx-auto grid md:grid-cols-4 gap-4 justify-center justify-items-center my-4">
                 {
                     uniqueServices.map((service, index) => <ServiceCard
                         key={index}
