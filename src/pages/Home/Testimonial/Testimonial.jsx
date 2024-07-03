@@ -33,7 +33,7 @@ const Testimonial = () => {
                 >
                     {
                         testimonials.map((item, index) => <SwiperSlide key={index}>
-                            <div className="max-w-sm mx-auto rounded-xl shadow-md overflow-hidden border-2">
+                            <div className="max-w-sm mx-auto rounded-xl h-40 shadow-md overflow-hidden border-2">
                                 <div className="flex items-center p-4">
                                     <img src={item.img} alt={item.title} className="w-10 h-10 rounded-full" />
                                     <h3 className="ml-4 font-bold text-xl">{item.title}</h3>

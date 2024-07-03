@@ -6,6 +6,8 @@ import Home from "../pages/Home/Home/Home";
 import Discover from "../pages/Discover/Discover";
 import Error from "../component/Error/Error";
 import Services from "../pages/Services/Services";
+import AllServices from "../pages/Services/AllServices";
+import About from "../pages/About/About";
 
 const router = createBrowserRouter([
     {
@@ -25,6 +27,14 @@ const router = createBrowserRouter([
                 path: "services",
                 element: <Services></Services>
             },
+            {
+                path: "allServices/:category",
+                element: <AllServices></AllServices>
+            },
+            {
+                path: "about",
+                element: <About></About>
+            }
         ]
     },
 ]);

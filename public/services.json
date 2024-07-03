@@ -3,384 +3,584 @@
     "title": "Mountain Trail",
     "description": "A challenging hike through rugged terrain.",
     "category": "Hiking",
-    "image": "https://i.ibb.co/LpLFJk9/download.jpg"
+    "image": "https://i.ibb.co/LpLFJk9/download.jpg",
+    "price": 100,
+    "_id": "1"
   },
   {
     "title": "Forest Path",
     "description": "A peaceful walk through dense forest.",
     "category": "Hiking",
-    "image": "https://i.ibb.co/LpLFJk9/download.jpg"
+    "image": "https://i.ibb.co/LpLFJk9/download.jpg",
+    "price": 80,
+    "_id": "2"
   },
   {
     "title": "Riverbank Hike",
     "description": "A scenic hike along the river.",
     "category": "Hiking",
-    "image": "https://i.ibb.co/LpLFJk9/download.jpg"
+    "image": "https://i.ibb.co/LpLFJk9/download.jpg",
+    "price": 90,
+    "_id": "3"
   },
   {
     "title": "Desert Trek",
     "description": "A long hike across the desert.",
     "category": "Hiking",
-    "image": "https://i.ibb.co/LpLFJk9/download.jpg"
+    "image": "https://i.ibb.co/LpLFJk9/download.jpg",
+    "price": 120,
+    "_id": "4"
   },
   {
     "title": "Coastal Walk",
     "description": "A hike along the coastline.",
     "category": "Hiking",
-    "image": "https://i.ibb.co/LpLFJk9/download.jpg"
+    "image": "https://i.ibb.co/LpLFJk9/download.jpg",
+    "price": 110,
+    "_id": "5"
   },
   {
     "title": "Hilltop Hike",
     "description": "A hike to the top of a hill.",
     "category": "Hiking",
-    "image": "https://i.ibb.co/LpLFJk9/download.jpg"
+    "image": "https://i.ibb.co/LpLFJk9/download.jpg",
+    "price": 85,
+    "_id": "6"
   },
   {
     "title": "Valley Hike",
     "description": "A hike through a picturesque valley.",
     "category": "Hiking",
-    "image": "https://i.ibb.co/LpLFJk9/download.jpg"
+    "image": "https://i.ibb.co/LpLFJk9/download.jpg",
+    "price": 95,
+    "_id": "7"
   },
   {
     "title": "Canyon Walk",
     "description": "A hike through a deep canyon.",
     "category": "Hiking",
-    "image": "https://i.ibb.co/LpLFJk9/download.jpg"
+    "image": "https://i.ibb.co/LpLFJk9/download.jpg",
+    "price": 130,
+    "_id": "8"
   },
   {
     "title": "Urban Hike",
     "description": "A hike through the city.",
     "category": "Hiking",
-    "image": "https://i.ibb.co/LpLFJk9/download.jpg"
+    "image": "https://i.ibb.co/LpLFJk9/download.jpg",
+    "price": 70,
+    "_id": "9"
   },
   {
     "title": "Lakeside Hike",
     "description": "A hike around a serene lake.",
     "category": "Hiking",
-    "image": "https://i.ibb.co/LpLFJk9/download.jpg"
+    "image": "https://i.ibb.co/LpLFJk9/download.jpg",
+    "price": 100,
+    "_id": "10"
   },
   {
     "title": "Forest Stroll",
     "description": "A relaxing walk in the woods.",
     "category": "Staking",
-    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg"
+    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg",
+    "price": 60,
+    "_id": "11"
   },
   {
     "title": "Park Walk",
     "description": "A walk through a city park.",
     "category": "Staking",
-    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg"
+    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg",
+    "price": 50,
+    "_id": "12"
   },
   {
     "title": "Nature Reserve Walk",
     "description": "A walk through a protected nature area.",
     "category": "Staking",
-    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg"
+    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg",
+    "price": 70,
+    "_id": "13"
   },
   {
     "title": "City Stroll",
     "description": "A walk through the bustling city streets.",
     "category": "Staking",
-    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg"
+    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg",
+    "price": 40,
+    "_id": "14"
   },
   {
     "title": "Historical Walk",
     "description": "A walk through a historic district.",
     "category": "Staking",
-    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg"
+    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg",
+    "price": 75,
+    "_id": "15"
   },
   {
     "title": "Neighborhood Walk",
     "description": "A walk through a charming neighborhood.",
     "category": "Staking",
-    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg"
+    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg",
+    "price": 55,
+    "_id": "16"
   },
   {
     "title": "Rock Face Climb",
     "description": "An exhilarating climb up a rock face.",
     "category": "Climbing",
-    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg"
+    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg",
+    "price": 150,
+    "_id": "17"
   },
   {
     "title": "Indoor Climbing",
     "description": "A safe and fun indoor climbing experience.",
     "category": "Climbing",
-    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg"
+    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg",
+    "price": 100,
+    "_id": "18"
   },
   {
     "title": "Mountain Climb",
     "description": "A challenging climb up a mountain.",
     "category": "Climbing",
-    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg"
+    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg",
+    "price": 200,
+    "_id": "19"
   },
   {
     "title": "Cliff Climb",
     "description": "A climb up a steep cliff.",
     "category": "Climbing",
-    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg"
+    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg",
+    "price": 180,
+    "_id": "20"
   },
   {
     "title": "Boulder Climb",
     "description": "A climb over large boulders.",
     "category": "Climbing",
-    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg"
+    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg",
+    "price": 140,
+    "_id": "21"
   },
   {
     "title": "Glacier Climb",
     "description": "A climb up a glacier.",
     "category": "Climbing",
-    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg"
+    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg",
+    "price": 250,
+    "_id": "22"
   },
   {
     "title": "Cave Climb",
     "description": "A climb inside a cave.",
     "category": "Climbing",
-    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg"
+    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg",
+    "price": 160,
+    "_id": "23"
   },
   {
     "title": "Ridge Climb",
     "description": "A climb along a mountain ridge.",
     "category": "Climbing",
-    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg"
+    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg",
+    "price": 190,
+    "_id": "24"
   },
   {
     "title": "Adventure Tour",
     "description": "A guided tour filled with adventure activities.",
     "category": "Tours",
-    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg"
+    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg",
+    "price": 220,
+    "_id": "25"
   },
   {
     "title": "Historical Tour",
     "description": "A guided tour of historical sites.",
     "category": "Tours",
-    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg"
+    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg",
+    "price": 180,
+    "_id": "26"
   },
   {
     "title": "City Tour",
     "description": "A guided tour of the city's main attractions.",
     "category": "Tours",
-    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg"
+    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg",
+    "price": 200,
+    "_id": "27"
   },
   {
     "title": "Cultural Tour",
-    "description": "A tour that explores the local culture.",
+    "description": "A tour exploring local culture.",
     "category": "Tours",
-    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg"
+    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg",
+    "price": 210,
+    "_id": "28"
   },
   {
     "title": "Food Tour",
-    "description": "A tour that includes sampling local cuisine.",
+    "description": "A guided tour sampling local cuisine.",
     "category": "Tours",
-    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg"
+    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg",
+    "price": 190,
+    "_id": "29"
   },
   {
-    "title": "Nature Tour",
-    "description": "A tour of natural sites and parks.",
+    "title": "Wildlife Tour",
+    "description": "A tour focusing on local wildlife.",
     "category": "Tours",
-    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg"
+    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg",
+    "price": 230,
+    "_id": "30"
   },
   {
-    "title": "Scenic Drive",
-    "description": "A drive through beautiful landscapes.",
+    "title": "Museum Tour",
+    "description": "A guided tour of local museums.",
+    "category": "Tours",
+    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg",
+    "price": 175,
+    "_id": "31"
+  },
+  {
+    "title": "Road Trip",
+    "description": "An exciting road trip through scenic routes.",
     "category": "Driving",
-    "image": "https://i.ibb.co/LpLFJk9/download.jpg"
+    "image": "https://i.ibb.co/LpLFJk9/download.jpg",
+    "price": 300,
+    "_id": "32"
   },
   {
     "title": "City Drive",
-    "description": "A drive through the city.",
+    "description": "A drive through the city's iconic spots.",
     "category": "Driving",
-    "image": "https://i.ibb.co/LpLFJk9/download.jpg"
+    "image": "https://i.ibb.co/LpLFJk9/download.jpg",
+    "price": 120,
+    "_id": "33"
+  },
+  {
+    "title": "Off-Road Adventure",
+    "description": "A thrilling off-road driving experience.",
+    "category": "Driving",
+    "image": "https://i.ibb.co/LpLFJk9/download.jpg",
+    "price": 350,
+    "_id": "34"
   },
   {
     "title": "Coastal Drive",
-    "description": "A drive along the coastline.",
+    "description": "A scenic drive along the coastline.",
     "category": "Driving",
-    "image": "https://i.ibb.co/LpLFJk9/download.jpg"
+    "image": "https://i.ibb.co/LpLFJk9/download.jpg",
+    "price": 250,
+    "_id": "35"
   },
   {
     "title": "Mountain Drive",
-    "description": "A drive through the mountains.",
+    "description": "A drive through mountainous terrain.",
     "category": "Driving",
-    "image": "https://i.ibb.co/LpLFJk9/download.jpg"
+    "image": "https://i.ibb.co/LpLFJk9/download.jpg",
+    "price": 300,
+    "_id": "36"
   },
   {
     "title": "Desert Drive",
-    "description": "A drive through the desert.",
+    "description": "An adventurous drive through the desert.",
     "category": "Driving",
-    "image": "https://i.ibb.co/LpLFJk9/download.jpg"
+    "image": "https://i.ibb.co/LpLFJk9/download.jpg",
+    "price": 280,
+    "_id": "37"
   },
   {
-    "title": "Glider Flight",
-    "description": "A peaceful flight in a glider.",
+    "title": "Flight Tour",
+    "description": "A scenic flight over stunning landscapes.",
     "category": "Flying",
-    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg"
+    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg",
+    "price": 400,
+    "_id": "38"
   },
   {
     "title": "Helicopter Tour",
-    "description": "A thrilling helicopter tour.",
+    "description": "A thrilling helicopter ride over the city.",
     "category": "Flying",
-    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg"
+    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg",
+    "price": 450,
+    "_id": "39"
   },
   {
-    "title": "Hot Air Balloon Ride",
+    "title": "Balloon Ride",
     "description": "A serene hot air balloon ride.",
     "category": "Flying",
-    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg"
+    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg",
+    "price": 350,
+    "_id": "40"
   },
   {
     "title": "Paragliding",
     "description": "An exhilarating paragliding experience.",
     "category": "Flying",
-    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg"
+    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg",
+    "price": 320,
+    "_id": "41"
   },
   {
-    "title": "Budget Getaway",
-    "description": "Affordable travel options for a quick escape.",
-    "category": "Best Price",
-    "image": "https://i.ibb.co/LpLFJk9/download.jpg"
+    "title": "Skydiving",
+    "description": "A thrilling skydiving adventure.",
+    "category": "Flying",
+    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg",
+    "price": 500,
+    "_id": "42"
   },
   {
-    "title": "Economy Stay",
-    "description": "Budget-friendly accommodations without sacrificing comfort.",
-    "category": "Best Price",
-    "image": "https://i.ibb.co/LpLFJk9/download.jpg"
+    "title": "Glider Flight",
+    "description": "A peaceful flight in a glider.",
+    "category": "Flying",
+    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg",
+    "price": 300,
+    "_id": "43"
   },
   {
-    "title": "Discount Flights",
-    "description": "Low-cost flight options to popular destinations.",
-    "category": "Best Price",
-    "image": "https://i.ibb.co/LpLFJk9/download.jpg"
+    "title": "Airplane Tour",
+    "description": "A guided airplane tour over the region.",
+    "category": "Flying",
+    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg",
+    "price": 420,
+    "_id": "44"
   },
   {
-    "title": "Cheap Eats",
-    "description": "Where to find delicious meals at wallet-friendly prices.",
-    "category": "Best Price",
-    "image": "https://i.ibb.co/LpLFJk9/download.jpg"
-  },
-  {
-    "title": "Tropical Paradise",
-    "description": "Explore stunning beaches and lush landscapes.",
-    "category": "Destination",
-    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg"
-  },
-  {
-    "title": "Historic Landmarks",
-    "description": "Discover ancient ruins and historical sites.",
-    "category": "Destination",
-    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg"
-  },
-  {
-    "title": "Cultural Haven",
-    "description": "Immerse yourself in rich cultural experiences.",
-    "category": "Destination",
-    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg"
-  },
-  {
-    "title": "Adventure Capital",
-    "description": "For adrenaline junkies seeking thrilling activities.",
-    "category": "Destination",
-    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg"
-  },
-  {
-    "title": "Cosmopolitan Escape",
-    "description": "Explore vibrant city life and modern attractions.",
-    "category": "Destination",
-    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg"
-  },
-  {
-    "title": "Natural Wonders",
-    "description": "Visit breathtaking natural landscapes and phenomena.",
-    "category": "Destination",
-    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg"
-  },
-  {
-    "title": "City Highlights",
-    "description": "Explore the main attractions and landmarks of the city.",
-    "category": "City Tour",
-    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg"
-  },
-  {
-    "title": "Architectural Marvels",
-    "description": "Discover impressive architectural feats and designs.",
-    "category": "City Tour",
-    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg"
-  },
-  {
-    "title": "Local Cuisine",
-    "description": "Sample delicious local dishes and culinary delights.",
-    "category": "City Tour",
-    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg"
-  },
-  {
-    "title": "Shopping Spree",
-    "description": "Explore the best shopping districts and markets.",
-    "category": "City Tour",
-    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg"
-  },
-  {
-    "title": "Nightlife Experience",
-    "description": "Enjoy the vibrant nightlife and entertainment options.",
-    "category": "City Tour",
-    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg"
-  },
-  {
-    "title": "Historical Landmarks",
-    "description": "Learn about the city's rich history through its landmarks.",
-    "category": "City Tour",
-    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg"
-  },
-  {
-    "title": "Art and Culture",
-    "description": "Explore museums, galleries, and cultural institutions.",
-    "category": "City Tour",
-    "image": "https://i.ibb.co/dWLXCt0/The-Great-Wall-of-China-at-Jinshanling-edit.jpg"
-  },
-  {
-    "title": "Luxury Hotel",
-    "description": "Experience ultimate comfort and luxury.",
-    "category": "Hotel",
-    "image": "https://i.ibb.co/fMY9Mbz/images.jpg"
+    "title": "Pilot Experience",
+    "description": "A chance to be a pilot for a day.",
+    "category": "Flying",
+    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg",
+    "price": 600,
+    "_id": "45"
   },
   {
     "title": "Budget Hotel",
-    "description": "Affordable stay with essential amenities.",
-    "category": "Hotel",
-    "image": "https://i.ibb.co/JthGQDf/images-1.jpg"
+    "description": "Affordable accommodation with basic amenities.",
+    "category": "Best Price",
+    "image": "https://i.ibb.co/fMY9Mbz/images.jpg",
+    "price": 50,
+    "_id": "46"
   },
   {
-    "title": "Boutique Hotel",
-    "description": "Stylish and unique accommodations.",
-    "category": "Hotel",
-    "image": "https://i.ibb.co/fMY9Mbz/images.jpg"
+    "title": "Economy Inn",
+    "description": "Comfortable stay at a reasonable price.",
+    "category": "Best Price",
+    "image": "https://i.ibb.co/fMY9Mbz/images.jpg",
+    "price": 60,
+    "_id": "47"
   },
   {
-    "title": "Eco-friendly Hotel",
-    "description": "Sustainable and environmentally conscious stay.",
-    "category": "Hotel",
-    "image": "https://i.ibb.co/JthGQDf/images-1.jpg"
+    "title": "Discount Hotel",
+    "description": "Low-cost hotel with essential facilities.",
+    "category": "Best Price",
+    "image": "https://i.ibb.co/fMY9Mbz/images.jpg",
+    "price": 45,
+    "_id": "48"
   },
   {
-    "title": "Family Hotel",
-    "description": "Family-friendly accommodations with amenities for all ages.",
-    "category": "Hotel",
-    "image": "https://i.ibb.co/fMY9Mbz/images.jpg"
+    "title": "Value Stay",
+    "description": "Affordable lodging with quality service.",
+    "category": "Best Price",
+    "image": "https://i.ibb.co/fMY9Mbz/images.jpg",
+    "price": 55,
+    "_id": "49"
   },
   {
-    "title": "Business Hotel",
-    "description": "Convenient location and amenities for business travelers.",
-    "category": "Hotel",
-    "image": "https://i.ibb.co/JthGQDf/images-1.jpg"
+    "title": "Luxury Resort",
+    "description": "High-end resort with premium facilities.",
+    "category": "Destination",
+    "image": "https://i.ibb.co/JthGQDf/images-1.jpg",
+    "price": 300,
+    "_id": "50"
   },
   {
-    "title": "Resort",
-    "description": "A resort with extensive amenities and activities.",
-    "category": "Hotel",
-    "image": "https://i.ibb.co/fMY9Mbz/images.jpg"
+    "title": "Beachfront Hotel",
+    "description": "Hotel with stunning beach views.",
+    "category": "Destination",
+    "image": "https://i.ibb.co/JthGQDf/images-1.jpg",
+    "price": 250,
+    "_id": "51"
   },
   {
-    "title": "Bed and Breakfast",
-    "description": "Cozy stay with a personal touch.",
-    "category": "Hotel",
-    "image": "https://i.ibb.co/JthGQDf/images-1.jpg"
+    "title": "Mountain Lodge",
+    "description": "Lodge nestled in the mountains.",
+    "category": "Destination",
+    "image": "https://i.ibb.co/JthGQDf/images-1.jpg",
+    "price": 200,
+    "_id": "52"
+  },
+  {
+    "title": "Island Retreat",
+    "description": "Private retreat on a secluded island.",
+    "category": "Destination",
+    "image": "https://i.ibb.co/JthGQDf/images-1.jpg",
+    "price": 400,
+    "_id": "53"
+  },
+  {
+    "title": "City Hotel",
+    "description": "Modern hotel in the heart of the city.",
+    "category": "Destination",
+    "image": "https://i.ibb.co/JthGQDf/images-1.jpg",
+    "price": 220,
+    "_id": "54"
+  },
+  {
+    "title": "Eco Lodge",
+    "description": "Environmentally friendly lodging.",
+    "category": "Destination",
+    "image": "https://i.ibb.co/JthGQDf/images-1.jpg",
+    "price": 180,
+    "_id": "55"
+  },
+  {
+    "title": "Historical Tour",
+    "description": "Explore the city's rich history.",
+    "category": "City Tour",
+    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg",
+    "price": 75,
+    "_id": "56"
+  },
+  {
+    "title": "Cultural Tour",
+    "description": "Discover the local culture.",
+    "category": "City Tour",
+    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg",
+    "price": 80,
+    "_id": "57"
+  },
+  {
+    "title": "Architectural Tour",
+    "description": "Admire the city's architectural marvels.",
+    "category": "City Tour",
+    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg",
+    "price": 90,
+    "_id": "58"
+  },
+  {
+    "title": "Gastronomic Tour",
+    "description": "Taste the city's culinary delights.",
+    "category": "City Tour",
+    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg",
+    "price": 100,
+    "_id": "59"
+  },
+  {
+    "title": "Nightlife Tour",
+    "description": "Experience the city's vibrant nightlife.",
+    "category": "City Tour",
+    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg",
+    "price": 85,
+    "_id": "60"
+  },
+  {
+    "title": "Art Tour",
+    "description": "Explore the city's art scene.",
+    "category": "City Tour",
+    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg",
+    "price": 95,
+    "_id": "61"
+  },
+  {
+    "title": "Shopping Tour",
+    "description": "Shop at the city's best stores.",
+    "category": "City Tour",
+    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg",
+    "price": 70,
+    "_id": "62"
+  },
+  {
+    "title": "Music Tour",
+    "description": "Experience the city's music scene.",
+    "category": "City Tour",
+    "image": "https://i.ibb.co/f8QJ3QW/2021-09-06.jpg",
+    "price": 65,
+    "_id": "63"
+  },
+  {
+    "title": "Budget Hotel",
+    "description": "Affordable accommodation with basic amenities.",
+    "category": "hotel",
+    "image": "https://i.ibb.co/fMY9Mbz/images.jpg",
+    "price": 50,
+    "_id": "64"
+  },
+  {
+    "title": "Economy Inn",
+    "description": "Comfortable stay at a reasonable price.",
+    "category": "hotel",
+    "image": "https://i.ibb.co/fMY9Mbz/images.jpg",
+    "price": 60,
+    "_id": "65"
+  },
+  {
+    "title": "Discount Hotel",
+    "description": "Low-cost hotel with essential facilities.",
+    "category": "hotel",
+    "image": "https://i.ibb.co/fMY9Mbz/images.jpg",
+    "price": 45,
+    "_id": "66"
+  },
+  {
+    "title": "Value Stay",
+    "description": "Affordable lodging with quality service.",
+    "category": "hotel",
+    "image": "https://i.ibb.co/fMY9Mbz/images.jpg",
+    "price": 55,
+    "_id": "67"
+  },
+  {
+    "title": "Luxury Resort",
+    "description": "High-end resort with premium facilities.",
+    "category": "hotel",
+    "image": "https://i.ibb.co/JthGQDf/images-1.jpg",
+    "price": 300,
+    "_id": "68"
+  },
+  {
+    "title": "Beachfront Hotel",
+    "description": "Hotel with stunning beach views.",
+    "category": "hotel",
+    "image": "https://i.ibb.co/JthGQDf/images-1.jpg",
+    "price": 250,
+    "_id": "69"
+  },
+  {
+    "title": "Mountain Lodge",
+    "description": "Lodge nestled in the mountains.",
+    "category": "hotel",
+    "image": "https://i.ibb.co/JthGQDf/images-1.jpg",
+    "price": 200,
+    "_id": "70"
+  },
+  {
+    "title": "Island Retreat",
+    "description": "Private retreat on a secluded island.",
+    "category": "hotel",
+    "image": "https://i.ibb.co/JthGQDf/images-1.jpg",
+    "price": 400,
+    "_id": "71"
+  },
+  {
+    "title": "City Hotel",
+    "description": "Modern hotel in the heart of the city.",
+    "category": "hotel",
+    "image": "https://i.ibb.co/JthGQDf/images-1.jpg",
+    "price": 220,
+    "_id": "72"
+  },
+  {
+    "title": "Eco Lodge",
+    "description": "Environmentally friendly lodging.",
+    "category": "hotel",
+    "image": "https://i.ibb.co/JthGQDf/images-1.jpg",
+    "price": 180,
+    "_id": "73"
   }
 ]

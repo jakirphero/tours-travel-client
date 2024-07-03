@@ -33,7 +33,7 @@ const Navbar = () => {
                     <Link to="/discover" className="text-white hover:text-gray-300">Discover</Link>
                     <Link to="/services" className="text-white hover:text-gray-300">Services</Link>
                     <Link to="/news" className="text-white hover:text-gray-300">News</Link>
-                    <Link to="/about-us" className="text-white hover:text-gray-300">About Us</Link>
+                    <Link to="/about" className="text-white hover:text-gray-300">About Us</Link>
                     <Link to="/contact" className="text-white hover:text-gray-300">Contact</Link>
                 </div>
                 {/* User Icon */}
@@ -55,7 +55,7 @@ const Navbar = () => {
                 <Link to="/discover" className="block text-white px-2 py-1">Discover</Link>
                 <Link to="/services" className="block text-white px-2 py-1">Services</Link>
                 <Link to="/news" className="block text-white px-2 py-1">News</Link>
-                <Link to="/about-us" className="block text-white px-2 py-1">About Us</Link>
+                <Link to="/about" className="block text-white px-2 py-1">About Us</Link>
                 <Link to="/contact" className="block text-white px-2 py-1">Contact</Link>
             </div>
         </nav>
