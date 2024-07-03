@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import SectionTitle from "../../component/SectionTitle/SectionTitle";
 import ServiceCard from "./ServiceCard";
 import useServices from "../../hook/useServices";
+import { Helmet } from "react-helmet-async";
 const Services = () => {
     const [services] = useServices();
     const getUniqueServices = (services) => {
@@ -25,6 +26,9 @@ const Services = () => {
     const uniqueServices = getUniqueServices(services);
     return (
         <>
+            <Helmet>
+                <title>Tours & Travel || Service</title>
+            </Helmet>
             <Cover img={img1} title={'services'}></Cover>
 
             <div className="max-w-screen-xl mx-auto grid gap-4 justify-center justify-items-center my-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">

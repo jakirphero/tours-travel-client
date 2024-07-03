@@ -7,6 +7,8 @@ import img3 from "../../assets/licensed-image.jpg"
 import img4 from "../../assets/The_Great_Wall_of_China_at_Jinshanling-edit.jpg"
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
+
 
 const Discover = () => {
     const [destinations, setDestinations] = useState([])
@@ -19,6 +21,9 @@ const Discover = () => {
     }, [])
     return (
         <div>
+            <Helmet>
+                <title>Tours & Travel || Discover</title>
+            </Helmet>
             <Cover img={img} title={'discover'}></Cover>
             <div className="max-w-screen-xl mx-auto">
                 <div className="text-center my-4">

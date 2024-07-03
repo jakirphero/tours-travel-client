@@ -47,7 +47,7 @@ const Banner = () => {
                     <div className="w-full md:w-auto">
                         <input type="date" className="input input-bordered w-full max-w-xs" />
                     </div>
-                    <input type="submit" className="bg-blue-500 text-white p-2 rounded w-auto" value="Search" />
+                    <input type="submit" className="bg-blue-500 text-white p-2 rounded w-auto cursor-pointer" value="Search" />
                 </form>
             </div>
         </div>

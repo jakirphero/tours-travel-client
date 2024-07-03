@@ -1,8 +1,12 @@
 import Cover from "../../shard/Cover/Cover";
 import img from "../../assets/Taj-Mahal-at-sunset-in-India-stock-photo-1400.jpg"
+import { Helmet } from "react-helmet-async";
 const Contact = () => {
     return (
         <>
+            <Helmet>
+                <title>Tours & Travel || Contact-Us</title>
+            </Helmet>
             <Cover img={img} title={'contact us'}></Cover>
             <div className="max-w-screen-xl mx-auto">
                 <div className="text-center">

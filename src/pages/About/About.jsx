@@ -5,9 +5,13 @@ import { FaBook, FaCheck, FaHeadphones, } from "react-icons/fa";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from "swiper/modules";
 import 'swiper/css';
+import { Helmet } from "react-helmet-async";
 const About = () => {
     return (
         <div>
+            <Helmet>
+                <title>Tours & Travel || About-Us</title>
+            </Helmet>
             <Cover img={img} title={'about us'}></Cover>
             <SectionTitle heading={'this popular destination have a let to offer'} subHeading={'why chose us?'}></SectionTitle>
 
