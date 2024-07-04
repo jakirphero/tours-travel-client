@@ -1,12 +1,14 @@
 import { faBars, faUser } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { AuthContext } from "../../Provider/AuthProvider";
 
 const Navbar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [scrollPosition, setScrollPosition] = useState(0);
     const location = useLocation();
+    const { user } = useContext(AuthContext);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -24,7 +26,7 @@ const Navbar = () => {
         setIsMobileMenuOpen(!isMobileMenuOpen);
     };
 
-    const isActive = (path) => location.pathname === path ? 'text-orange-500' : '';
+    const isActive = (path) => location.pathname === path ? 'text-orange-300' : '';
     return (
         <nav className={`p-4 fixed z-10 w-full transition-colors duration-300 opacity-70 ${scrollPosition > 50 ? 'bg-neutral text-neutral-content' : 'bg-transparent'}`}>
             <div className="container mx-auto flex justify-between items-center">
@@ -40,9 +42,15 @@ const Navbar = () => {
                     <Link to="/contact" className={`text-white hover:text-gray-300 ${isActive('/contact')}`}>Contact</Link>
                 </div>
                 <div className="text-white">
-                    <Link to="/profile" className={`hover:text-gray-300 ${isActive('/profile')}`}>
-                        <FontAwesomeIcon icon={faUser} className="h-6 w-6" />
-                    </Link>
+                    {
+                        user ? <>
+                            <Link to="/" className={`hover:text-gray-300`}>
+                                {user.email}
+                            </Link>
+                        </> : <>
+                            <FontAwesomeIcon icon={faUser} className="h-6 w-6" />
+                        </>
+                    }
                 </div>
                 <div className="md:hidden">
                     <button onClick={toggleMobileMenu} className="text-white focus:outline-none">
