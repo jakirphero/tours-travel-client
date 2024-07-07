@@ -11,6 +11,8 @@ import About from "../pages/About/About";
 import Contact from "../pages/Contact/Contact";
 import Login from "../pages/Login/Login";
 import SignUp from "../pages/SignUp/SignUp";
+import Cart from "../pages/Cart/Cart";
+import PrivateRoute from "./PrivateRoute";
 
 const router = createBrowserRouter([
     {
@@ -49,6 +51,10 @@ const router = createBrowserRouter([
             {
                 path: "singUp",
                 element: <SignUp></SignUp>
+            },
+            {
+                path: "cart",
+                element: <PrivateRoute><Cart></Cart></PrivateRoute>
             }
         ]
     },

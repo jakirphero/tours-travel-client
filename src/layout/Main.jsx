@@ -4,7 +4,7 @@ import Footer from "../shard/Footer/Footer";
 
 const Main = () => {
     const location = useLocation();
-    const noHeaderFooter = location.pathname.includes('singIn') || location.pathname.includes('singUp');
+    const noHeaderFooter = location.pathname.includes('singIn') || location.pathname.includes('singUp') || location.pathname.includes('cart');
 
     return (
         <div>

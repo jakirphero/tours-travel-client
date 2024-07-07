@@ -8,7 +8,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 
 const AllServices = () => {
-    const categories = ['Hiking', 'Staking', 'Climbing', 'Tours', 'Driving', 'Flying', 'Best Price', 'Destination', 'City Tour', 'hotel'];
+    const categories = ['Hiking', 'Staking', 'Climbing', 'Tours', 'Driving', 'Flying', 'Best Price', 'Destination', 'City Tour', 'Hotel'];
     const { category } = useParams();
     const initialIndex = categories.indexOf(category);
     const [tabIndex, setTabIndex] = useState(initialIndex >= 0 ? initialIndex : 0);
@@ -16,7 +16,6 @@ const AllServices = () => {
 
     const [services, error] = useServices();
 
-    console.log('Fetched services:', services);
     console.log('Error:', error);
 
     const servicesByCategory = categories.reduce((acc, cat) => {

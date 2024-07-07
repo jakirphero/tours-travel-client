@@ -1,16 +1,48 @@
 import { useContext } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { json, Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProvider";
+import Swal from "sweetalert2";
 
 const ServiceTabCard = ({ item }) => {
-    const { title, description, image, price } = item;
+    const { title, description, image, price, id } = item;
     const navigate = useNavigate();
     const { user } = useContext(AuthContext);
 
-    const handleBooking = () => {
-        if (user) {
+    const handleBooking = async () => {
+        if (user && user.email) {
             // TODO: send data to database and store
-            console.log('booking data')
+            try {
+                const res = await fetch('http://localhost:5000/bookings', {
+                    method: 'POST',
+                    headers: {
+                        'content-type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        bookingId: id,
+                        email : user.email,
+                        title,
+                        price,
+                        image,
+                        description
+                    })
+                });
+                console.log(res)
+                if (res.ok) {
+                    Swal.fire({
+                        position: "top-end",
+                        icon: "success",
+                        title: `${title} your booking success`,
+                        showConfirmButton: false,
+                        timer: 1500
+                    })
+                    .then(()=>{
+                        navigate('/cart')
+                    })
+                }
+            }
+            catch (error) {
+                console.log(error)
+            }
         }
         else {
             navigate('/singIn')
