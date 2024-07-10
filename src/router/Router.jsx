@@ -13,6 +13,10 @@ import Login from "../pages/Login/Login";
 import SignUp from "../pages/SignUp/SignUp";
 import Cart from "../pages/Cart/Cart";
 import PrivateRoute from "./PrivateRoute";
+import Dashboard from "../layout/Dashboard";
+import AdminHome from "../pages/Dashboard/AdminHome/AdminHome";
+import AllUser from "../pages/Dashboard/AllUser/AllUser";
+import AdminRoute from "./AdminRoute";
 
 const router = createBrowserRouter([
     {
@@ -58,6 +62,20 @@ const router = createBrowserRouter([
             }
         ]
     },
+    {
+        path: "dashboard",
+        element: <PrivateRoute><Dashboard></Dashboard></PrivateRoute>,
+        children: [
+            {
+                path: "adminHome",
+                element: <AdminHome></AdminHome>
+            },
+            {
+                path: "allUser",
+                element: <AdminRoute><AllUser></AllUser></AdminRoute>
+            }
+        ]
+    }
 ]);
 
 export default router;

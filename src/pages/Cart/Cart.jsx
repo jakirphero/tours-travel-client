@@ -3,12 +3,15 @@ import { Link } from 'react-router-dom';
 import useCart from '../../hook/useCart';
 import Swal from 'sweetalert2';
 import useAxiosSecure from '../../hook/useAxiosSecure';
+import { useContext } from 'react';
+import { AuthContext } from '../../Provider/AuthProvider';
 
 
 const Cart = () => {
     const [booking, refetch] = useCart();
     const axiosSecure = useAxiosSecure();
     const totalPrice = booking.reduce((total, item) => total + Number(item.price), 0);
+    const {user} = useContext(AuthContext)
 
     const handleDelete = id => {
         Swal.fire({
@@ -43,6 +46,7 @@ const Cart = () => {
                     <h3 className="text-2xl">Total Price: <span className="text-3xl font-bold text-green-600">${totalPrice}</span></h3>
                 </div>
                 <div>
+                    <p className="text-2xl font-bold py-1">{user.email}</p>
                     <Link to={'/'}>
                         <button className="btn btn-outline btn-sm mr-2">Go to Home</button>
                     </Link>

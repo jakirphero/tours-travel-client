@@ -8,7 +8,7 @@ const Navbar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [scrollPosition, setScrollPosition] = useState(0);
     const location = useLocation();
-    const { user } = useContext(AuthContext);
+    const { user, logOut } = useContext(AuthContext);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -26,6 +26,12 @@ const Navbar = () => {
         setIsMobileMenuOpen(!isMobileMenuOpen);
     };
 
+    const handleLogout = () => {
+        logOut()
+        .then(()=> { })
+        .catch(error=> console.log(error))
+    }
+
     const isActive = (path) => location.pathname === path ? 'text-orange-300' : '';
     return (
         <nav className={`p-4 fixed z-10 w-full transition-colors duration-300 opacity-70 ${scrollPosition > 50 ? 'bg-neutral text-neutral-content' : 'bg-transparent'}`}>
@@ -40,15 +46,14 @@ const Navbar = () => {
                     <Link to="/news" className={`text-white hover:text-gray-300 ${isActive('/news')}`}>News</Link>
                     <Link to="/about" className={`text-white hover:text-gray-300 ${isActive('/about')}`}>About Us</Link>
                     <Link to="/contact" className={`text-white hover:text-gray-300 ${isActive('/contact')}`}>Contact</Link>
+                    <Link to="/dashboard/adminHome" className={`text-white hover:text-gray-300 ${isActive('/dashboard/adminHome')}`}>Dashboard</Link>
                 </div>
                 <div className="text-white">
                     {
                         user ? <>
-                            <Link to="/" className={`hover:text-gray-300`}>
-                                {user.email}
-                            </Link>
+                            <button onClick={handleLogout} className="btn btn-active">Log Out</button>
                         </> : <>
-                            <FontAwesomeIcon icon={faUser} className="h-6 w-6" />
+                            <Link to={'/singIn'}><FontAwesomeIcon icon={faUser} className="h-6 w-6" /></Link>
                         </>
                     }
                 </div>
@@ -65,6 +70,7 @@ const Navbar = () => {
                 <Link to="/news" className={`block text-white px-2 py-1 ${isActive('/news')}`}>News</Link>
                 <Link to="/about" className={`block text-white px-2 py-1 ${isActive('/about')}`}>About Us</Link>
                 <Link to="/contact" className={`block text-white px-2 py-1 ${isActive('/contact')}`}>Contact</Link>
+                <Link to="/dashboard/adminHome" className={`block text-white px-2 py-1 ${isActive('/dashboard/adminHome')}`}>Dashboard</Link>
             </div>
         </nav>
     );
