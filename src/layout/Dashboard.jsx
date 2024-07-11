@@ -1,4 +1,4 @@
-import { FaHome, FaUsers, } from "react-icons/fa";
+import { FaHome, FaList, FaUsers, } from "react-icons/fa";
 import { FaCity } from "react-icons/fa6";
 import { NavLink, Outlet } from "react-router-dom";
 import useAdmin from "../hook/useAdmin";
@@ -18,7 +18,7 @@ const Dashboard = () => {
                                 </NavLink>
                             </li>
                             <li className="mb-4">
-                                <NavLink to={'/dashboard'} className="text-lg flex items-center">
+                                <NavLink to={'/dashboard/newTours'} className="text-lg flex items-center">
                                     <FaCity className="mr-2" />
                                     New Tours
                                 </NavLink>
@@ -27,6 +27,12 @@ const Dashboard = () => {
                                 <NavLink to={'/dashboard/allUser'} className="text-lg flex items-center">
                                     <FaUsers className="mr-2" />
                                     All Users
+                                </NavLink>
+                            </li>
+                            <li className="mb-4">
+                                <NavLink to={'/dashboard/manageItem'} className="text-lg flex items-center">
+                                    <FaList className="mr-2" />
+                                    Manage Items
                                 </NavLink>
                             </li>
                         </>

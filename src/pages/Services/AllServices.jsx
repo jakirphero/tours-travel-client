@@ -16,8 +16,6 @@ const AllServices = () => {
 
     const [services, error] = useServices();
 
-    console.log('Error:', error);
-
     const servicesByCategory = categories.reduce((acc, cat) => {
         acc[cat] = services.filter(service => service.category === cat);
         return acc;

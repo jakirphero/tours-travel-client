@@ -11,7 +11,7 @@ const Cart = () => {
     const [booking, refetch] = useCart();
     const axiosSecure = useAxiosSecure();
     const totalPrice = booking.reduce((total, item) => total + Number(item.price), 0);
-    const {user} = useContext(AuthContext)
+    const { user } = useContext(AuthContext)
 
     const handleDelete = id => {
         Swal.fire({
@@ -22,19 +22,17 @@ const Cart = () => {
             confirmButtonColor: "#3085d6",
             cancelButtonColor: "#d33",
             confirmButtonText: "Yes, delete it!",
-        }).then((result) => {
+        }).then(async (result) => {
             if (result.isConfirmed) {
-                axiosSecure.delete(`/bookings/${id}`)
-                    .then(res => {
-                        if (res.data.deletedCount > 0) {
-                            refetch()
-                            Swal.fire({
-                                title: "Deleted!",
-                                text: "Your booking has been deleted.",
-                                icon: "success",
-                            });
-                        }
-                    })
+                const res = await axiosSecure.delete(`/bookings/${id}`)
+                if (res.data.deletedCount > 0) {
+                    refetch()
+                    Swal.fire({
+                        title: "Deleted!",
+                        text: "Your booking has been deleted.",
+                        icon: "success",
+                    });
+                }
             }
         });
     }

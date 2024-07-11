@@ -1,29 +1,17 @@
-import { useState, useEffect } from 'react';
+import { useQuery } from "@tanstack/react-query";
+import useAxiosPublic from "./useAxiosPublic";
+
 
 const useServices = () => {
-    const [services, setServices] = useState([]);
-    const [error, setError] = useState(null);
-
-    useEffect(() => {
-        const fetchServices = async () => {
-            try {
-                const response = await fetch('/services.json'); 
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-
-                const data = await response.json();
-                setServices(data);
-            } catch (error) {
-                console.error('Error fetching services:', error);
-                setError(error.message);
-            }
-        };
-
-        fetchServices();
-    }, []);
-
-    return [services, error];
+    const axiosPublic = useAxiosPublic();
+    const { data: services = [], isPending: loading, refetch } = useQuery({
+        queryKey: ['services'],
+        queryFn: async () => {
+            const res = await axiosPublic.get('/services');
+            return res.data;
+        }
+    })
+    return[services, loading, refetch]
 };
 
 export default useServices;
