@@ -4,7 +4,7 @@ import { AuthContext } from "../../Provider/AuthProvider";
 import Swal from "sweetalert2";
 
 const ServiceTabCard = ({ item }) => {
-    const { title, description, image, price, id } = item;
+    const { title, description, image, price, _id } = item;
     const navigate = useNavigate();
     const { user } = useContext(AuthContext);
 
@@ -18,7 +18,7 @@ const ServiceTabCard = ({ item }) => {
                         'content-type': 'application/json'
                     },
                     body: JSON.stringify({
-                        bookingId: id,
+                        itemId: _id,
                         email : user.email,
                         title,
                         price,

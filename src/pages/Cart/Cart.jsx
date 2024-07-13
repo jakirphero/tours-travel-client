@@ -10,7 +10,7 @@ import { AuthContext } from '../../Provider/AuthProvider';
 const Cart = () => {
     const [booking, refetch] = useCart();
     const axiosSecure = useAxiosSecure();
-    const totalPrice = booking.reduce((total, item) => total + Number(item.price), 0);
+    const totalPrice = booking.reduce((total, item) => total + item.price, 0);
     const { user } = useContext(AuthContext)
 
     const handleDelete = id => {
@@ -48,9 +48,12 @@ const Cart = () => {
                     <Link to={'/'}>
                         <button className="btn btn-outline btn-sm mr-2">Go to Home</button>
                     </Link>
-                    <Link>
-                        <button className="btn btn-info btn-sm">Confirm</button>
-                    </Link>
+                    {
+                        booking.length ? <Link to={'/dashboard/payment'}>
+                            <button className="btn btn-info btn-sm">Confirm</button>
+                        </Link> :
+                            <button disabled className="btn btn-info btn-sm">Confirm</button>
+                    }
                 </div>
             </div>
             <div className="overflow-x-auto">

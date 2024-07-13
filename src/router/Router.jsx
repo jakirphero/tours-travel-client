@@ -19,6 +19,8 @@ import AllUser from "../pages/Dashboard/AllUser/AllUser";
 import AdminRoute from "./AdminRoute";
 import ManageItem from "../pages/Dashboard/ManageItem/ManageItem";
 import NewTours from "../pages/Dashboard/NewTours/NewTours";
+import Payment from "../pages/Dashboard/payment/Payment";
+import PaymentHistory from "../pages/Dashboard/PaymentHistory/PaymentHistory";
 
 const router = createBrowserRouter([
     {
@@ -83,6 +85,15 @@ const router = createBrowserRouter([
             {
                 path: "newTours",
                 element: <AdminRoute><NewTours></NewTours></AdminRoute>
+            },
+            //user route
+            {
+                path: "payment",
+                element: <PrivateRoute><Payment></Payment></PrivateRoute>
+            },
+            {
+                path: "paymentHistory",
+                element: <PaymentHistory></PaymentHistory>
             }
         ]
     }

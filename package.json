@@ -12,6 +12,8 @@
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
+    "@stripe/react-stripe-js": "^2.7.3",
+    "@stripe/stripe-js": "^4.1.0",
     "@tanstack/react-query": "^5.49.2",
     "axios": "^1.7.2",
     "firebase": "^10.12.3",
@@ -26,6 +28,7 @@
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.24.0",
     "react-tabs": "^6.0.2",
+    "recharts": "^2.12.7",
     "sweetalert": "^2.1.2",
     "sweetalert2": "^11.12.1",
     "swiper": "^11.1.4"

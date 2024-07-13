@@ -8,7 +8,7 @@ const Navbar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [scrollPosition, setScrollPosition] = useState(0);
     const location = useLocation();
-    const { user, logOut } = useContext(AuthContext);
+    const { user} = useContext(AuthContext);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -25,12 +25,6 @@ const Navbar = () => {
     const toggleMobileMenu = () => {
         setIsMobileMenuOpen(!isMobileMenuOpen);
     };
-
-    const handleLogout = () => {
-        logOut()
-        .then(()=> { })
-        .catch(error=> console.log(error))
-    }
 
     const isActive = (path) => location.pathname === path ? 'text-orange-300' : '';
     return (
@@ -51,7 +45,7 @@ const Navbar = () => {
                 <div className="text-white">
                     {
                         user ? <>
-                            <button onClick={handleLogout} className="btn btn-active">Log Out</button>
+                            <p className=" text-green-500 text-center">{user.displayName}</p>
                         </> : <>
                             <Link to={'/singIn'}><FontAwesomeIcon icon={faUser} className="h-6 w-6" /></Link>
                         </>
