@@ -1,6 +1,6 @@
 import { FaHome, FaList, FaUsers, } from "react-icons/fa";
-import { FaCity } from "react-icons/fa6";
-import { NavLink, Outlet } from "react-router-dom";
+import { FaBookAtlas, FaCity } from "react-icons/fa6";
+import { NavLink, Outlet} from "react-router-dom";
 import useAdmin from "../hook/useAdmin";
 import { useContext } from "react";
 import { AuthContext } from "../Provider/AuthProvider";
@@ -8,11 +8,14 @@ import { AuthContext } from "../Provider/AuthProvider";
 const Dashboard = () => {
     const [isAdmin] = useAdmin();
     const { logOut } = useContext(AuthContext);
+    
     const handleLogout = () => {
         logOut()
             .then(() => { })
             .catch(error => console.log(error))
-    }
+    };
+
+    
     return (
         <div className="flex">
             <div className="w-1/4 text-black border-r-2 h-screen p-4">
@@ -43,11 +46,17 @@ const Dashboard = () => {
                                     Manage Items
                                 </NavLink>
                             </li>
+                            <li className="mb-4 hover:text-green-500">
+                                <NavLink to={'/dashboard/manageBooking'} className="text-lg flex items-center">
+                                    <FaBookAtlas className="mr-2" />
+                                    Manage Booking
+                                </NavLink>
+                            </li>
                         </>
                         :
                         <>
                             <li className="mb-4 hover:text-green-500">
-                                <NavLink to={'/dashboard'} className="text-lg flex items-center">
+                                <NavLink to={'/dashboard/userHome'} className="text-lg flex items-center">
                                     User Home
                                 </NavLink>
                             </li>
