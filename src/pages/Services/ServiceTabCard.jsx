@@ -12,7 +12,7 @@ const ServiceTabCard = ({ item }) => {
         if (user && user.email) {
             // TODO: send data to database and store
             try {
-                const res = await fetch('http://localhost:5000/bookings', {
+                const res = await fetch('https://tours-travel-server.vercel.app/bookings', {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json'
